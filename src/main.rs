@@ -28,6 +28,7 @@ fn main() {
             // const VERSION: &'static str = env!("CARGO_PKG_VERSION");
             const COMMAND_NAME: &'static str = env!("CARGO_PKG_NAME");
             println!("Usage: {} [OPTIONS]", COMMAND_NAME);
+            println!("  -h: show help");
             println!("  -e: print to stderr");
             println!("  -t [sec]: specify exit sec (default: 0 / means no exit)");
             return;
