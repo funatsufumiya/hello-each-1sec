@@ -1,5 +1,7 @@
 # hello-each-1sec
 
+just print hello each sec (ex: for testing use)
+
 ## Build and Install
 
 ```bash
